@@ -34,3 +34,9 @@ Not only distorsion, in order to correctly map world points to pixel locations, 
                                                                      [0 0 0 1]]
                                                                              
  Extrinsic parameters corresponds to rotation and translation vectors which translates a coordinates of a 3D point to a coordinate system.
+
+
+
+sources:
+
+https://docs.opencv.org/3.4.3/dc/dbb/tutorial_py_calibration.html
