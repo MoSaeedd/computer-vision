@@ -21,7 +21,7 @@ Undistortion: normally, cameras suffer from two types of distorsion, [radial](ht
   Tangential distortion occurs because the image-taking lense is not aligned perfectly parallel to the imaging plane. So, a perfectly alligned image will appear as skewed and some areas in the image may look nearer than expected.
 
   <figure>
-  <img src="https://www.researchgate.net/publication/332199146/figure/fig5/AS:743978198642690@1554389633677/Tangential-distortion.png" height="200" width="200">
+  <img src="https://www.researchgate.net/publication/332199146/figure/fig5/AS:743978198642690@1554389633677/Tangential-distortion.png" >
     <figcaption>Fig.2 - Tangantial distortion. Source:researchgate.</figcaption>
   </figure>
 
@@ -29,8 +29,8 @@ Undistortion: normally, cameras suffer from two types of distorsion, [radial](ht
 
 Not only distorsion, in order to correctly map world points to pixel locations, we need to account for other camera intensic and Extrensic parameters. Intrinsic parameters are specific to a camera. They include information like focal length ( fx,fy) and optical centers ( cx,cy). The focal length and optical centers can be used to create a camera matrix, which can be used to remove distortion due to the lenses of a specific camera. The camera matrix is unique to a specific camera, so once calculated, it can be reused on other images taken by the same camera. It is expressed as a 3x3 matrix:
 
-                                                                            [[fx 0 cx],
-                                                                             [0 fy cy],
-                                                                             [0 0 0 1]]
+                                                                    [[fx 0 cx],
+                                                                     [0 fy cy],
+                                                                     [0 0 0 1]]
                                                                              
  Extrinsic parameters corresponds to rotation and translation vectors which translates a coordinates of a 3D point to a coordinate system.
