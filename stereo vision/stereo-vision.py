@@ -113,4 +113,4 @@ depth_map_left = calc_depth_map(disp_left, k_left, t_left, t_right)
 plt.figure(figsize=(8, 8), dpi=100)
 plt.imshow(depth_map_left, cmap='flag')
 plt.show()
-print(min(cv2.minMaxLoc(depth_map_left)))
+
