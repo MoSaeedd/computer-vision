@@ -5,5 +5,5 @@ In this project, stereo camera data is used to extract the depth information fro
 In the below GIF, right, left , right disparity, right depth are listed from up to down. The darker the closer.
 
 
-![](combined_output.gif)
+<img src="combined_output.gif" width="400" height="600">
 
